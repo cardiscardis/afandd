@@ -1,0 +1,1026 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>African Foods and Deliveries</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src = "https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+	<script type = "text/javascript" src = "index.js"></script>
+	<script type = "text/javascript" src = "angular.js"></script>
+	<style>
+		input.ng-invalid {
+    border: 2px solid rgb(143, 4, 27) !important;
+}
+
+select.ng-invalid {
+    border: 2px solid rgb(143, 4, 27) !important;
+}
+
+input.ng-untouched {
+	border: 0px !important;
+}
+	</style>
+  </head>
+  <body ng-app="buyForm">
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDwHO1Kd5Mmm20kmIMDCp2VKHy1qW6mOZY",
+    authDomain: "African-28b35.firebaseapp.com",
+    databaseURL: "https://African-28b35.firebaseio.com",
+    projectId: "African-28b35",
+    storageBucket: "African-28b35.appspot.com",
+    messagingSenderId: "406930018036",
+    appId: "1:406930018036:web:4c864f201dc2da8a25d8a1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  	<div class="top py-1">
+  		<div class="container">
+  			<div class="row">
+	    		<div class="col d-flex align-items-center">
+	    			<p class="mb-0"><a href="contact.html">info@afandd.com</a> | <a href="contact.html">Help Desk</a> | </p>
+	    		</div>
+	    		<div class="col-4 d-flex justify-content-end">
+	    			<div class="social-media">
+			    		<p class="mb-0 d-flex">
+			    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+			    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+			    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+			    		</p>
+		        </div>
+	    		</div>
+	    	</div>
+  		</div>
+  	</div>
+		<div class="wrap">
+	    <div class="container">
+				<div class="row justify-content-between">
+					<div class="col-md-3 mb-md-0 mb-4 d-flex align-items-center">
+						<a class="navbar-brand" href="index.html">African Foods and Deliveries</a>
+					</div>
+					<div class="col-md-7">
+						<div class="row">
+							<div class="col-md-8 mb-md-0 mb-3">
+								<div class="top-wrap d-flex">
+									<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
+									<div class="text"><span><strong style="color:red;">Please Note:</strong></span><span style="color:red;"><strong>AF & D is only availble in Akure.</strong></span></div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="top-wrap d-flex">
+									<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-phone"></span></div>
+									<div class="text"><span>Call us</span><span>(+234) 810 169 1795</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="fa fa-bars"></span> Menu
+	      </button>
+				<div class="order-lg-last">
+          <a href="sellerform.html" class="btn btn-primary">Be a Seller</a>
+        </div>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav mr-auto">
+	        	<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	        	<!--<li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
+	        	<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>-->
+	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    <div class="hero-wrap">
+	    <div class="home-slider owl-carousel">
+	      <div class="slider-item" style="background-image:url(images/people-around-a-table-with-food-4262172.jpg);">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row no-gutters slider-text align-items-center justify-content-end">
+		          <div class="col-md-6 ftco-animate">
+		          	<div class="text w-100">
+			            <h1 class="mb-4">Welcome to AF & D</h1>
+			            <p>All Your Food Item. Stay Safe. Keep Your Schedule Undisturbed.</p>
+						<p><a href="sellerform.html" class="btn btn-primary">Be A Seller</a></p>
+						<p><a href="#buyfood" class="btn btn-primary">Buy A Food Item</a></p>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+	      </div>
+
+	      <div class="slider-item" style="background-image:url(images/woman-holding-tomatoes-3213283.jpg);">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row no-gutters slider-text align-items-center justify-content-end">
+		          <div class="col-md-6 ftco-animate">
+		          	<div class="text w-100">
+			            <h1 class="mb-4">Buy or Sell Cheapest Food Items, Get Cheapest Delivery</h1>
+			            <p>You Would Not Need To Lift A Finger For Your Goods To Be Delivered.</p>
+			            <p><a href="sellerform.html" class="btn btn-primary">Be A Seller</a></p>
+						<p><a href="#buyfood" class="btn btn-primary">Buy A Food Item</a></p>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+
+	  <section id="buyfood" class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb">
+			<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row d-md-flex justify-content-center">
+    			<div class="col-md-12">
+	    			<div class="wrap-appointment d-md-flex">
+		    			<div class="col-md-8 bg-primary p-5 heading-section heading-section-white">
+		    				<span class="subheading">Buy A Fresh Food Item</span>
+		    				<h2 class="mb-4">Choose Item</h2>
+		    				<form ng-controller="valCtrl" name="foodbuy" class="appointment" method="get" novalidate>
+								<p ng-if="foodbuy.$dirty && foodbuy.$error.required && foodbuy.$invalid" style="color: rgb(216, 5, 5)">all fields are required</p>
+		    					<div class="row justify-content-center">
+										<div class="col-md-6">
+											<div class="form-group">
+								  <input type="text" class="form-control" name="name" ng-model="name" placeholder="Your Name" required>
+								  <p></p>
+					            </div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+					              <input type="phone" class="form-control" name="phone" ng-model="phone" placeholder="Phone number" required>
+					            </div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+								  <input type="email" name="email" class="form-control" ng-model="email" placeholder="Email" required>								  
+					            </div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+					    					<div class="form-field">
+			          					<div class="select-wrap">
+			                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
+			                      <select name="cat" class="form-control" ng-model="cat" required>
+			                      	<option value="">Select Category</option>
+			                        <option value="spices">Spices</option>
+			                        <option value="veg">Vegetables</option>
+			                        <option value="tubers">Tubers</option>
+			                        <option value="cereals">Cereals/grains</option>
+			                        <option value="legumes">Legumes</option>
+			                        <option value="pepper">Pepper</option>
+			                      </select>
+			                    </div>
+					              </div>
+					    				</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+					    					<div class="form-field">
+			          					<div class="select-wrap">
+			                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
+			                      <select name="prod_type" class="form-control" ng-model="prod_type" required>
+			                      	<option value="">Select Product</option>
+			                        <option value="rice">Rice</option>
+			                        <option value="sorghum">Sorghum</option>
+			                        <option value="beans">Beans</option>
+			                        <option value="millet">Millet</option>
+			                      </select>
+			                    </div>
+					              </div>
+					    				</div>
+										</div>
+										<!--<div class="col-md-6">
+											<div class="form-group">
+					    					<div class="input-wrap">
+					            		<div class="icon"><span class="fa fa-calendar"></span></div>
+					            		<input type="text" name="local_govt" class="form-control appointment_date" ng-model="local_govt" placeholder="Select Your Local Govt.">
+				            		</div>
+					    				</div>
+										</div>-->
+										<div class="col-md-6">
+											<div class="form-group">
+					    					<div class="input-wrap">
+					            		<div class="icon"><span class="fa fa-map-marker"></span></div>
+					            		<input type="address" name="address" class="form-control appointment_time" ng-model="address" placeholder="Type Your Collection Address" required>
+				            		</div>
+					    				</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+								  <input type="submit" value="Submit" name="submit" ng-disabled="foodbuy.$invalid && foodbuy.$error.required" class="btn btn-secondary py-3 px-4">								  								  
+					            </div>
+										</div>
+								</div>								
+			          </form>
+		    			</div>
+		    			<div class="col-md-4 bg-white text-center p-5">
+		    				<div class="desc border-bottom pb-4">
+		    					<h2>Business Hours</h2>
+			              <div class="opening-hours">
+			              	<h4>Delivery Hours:</h4>
+			              	<p class="pl-3">
+			              		<span><strong>Monday – Friday:</strong> 9am to 6pm</span>
+			              		<span><strong>Saturday :</strong> 9am to 3pm</span>
+			              	</p>
+			              	<h4>Vacations:</h4>
+			              	<p class="pl-3">
+			              		<span>All Sunday Days</span>
+			              		<span>All Official Holidays</span>
+			              	</p>
+			              </div>
+		    				</div>
+								<div class="desc pt-4 ">
+									<h3 class="heading">For Emergency Cases</h3>
+									<span class="phone">(+234) 810 169 1795</span>
+								</div>
+		    			</div>
+		    		</div>
+		    	</div>
+    		</div>
+		</div>		
+	</section>
+
+    <section class="ftco-section ftco-no-pb ftco-no-pt" style="margin-top:40px;">
+			<div class="container-fluid px-md-0">
+				<div class="row no-gutters justify-content-center pb-5 mb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+          	<span class="subheading">Gallery</span>
+            <h2>Fresh Food Items. Competitive Cost.</h2>
+          </div>
+        </div>
+				<div class="row no-gutters">
+					<div class="col-md-4 col-lg ftco-animate d-flex">
+						<div class="staff bg-primary">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/woman-smiling-and-eating-outside-the-pop-porium-shop-2434048.jpg);"></div>
+							</div>
+							<div class="text pt-3 px-3 pb-4 text-center">
+								<h3>Cereals and Legumes</h3>
+								<span class="position mb-2">Rice, Wheat, Beans, Soya Beans, etc.</span>
+								<div class="faded">
+									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg ftco-animate d-flex">
+						<div class="staff bg-primary">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/focused-young-black-woman-holding-basket-with-lettuce-on-4177750.jpg);"></div>
+							</div>
+							<div class="text pt-3 px-3 pb-4 text-center">
+								<h3>Tubers</h3>
+								<span class="position mb-2"> Yam, Cassava, Potatoes, Water Yam, etc.</span>
+								<div class="faded">
+									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg ftco-animate d-flex">
+						<div class="staff bg-primary">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/fresh-sweet-apricots-on-white-table-with-whole-cantaloupe-4397916.jpg);"></div>
+							</div>
+							<div class="text pt-3 px-3 pb-4 text-center">
+								<h3>Vegetables and Fruits</h3>
+								<span class="position mb-2">Spinach, Apple, Pineapple, Banana, Oranges, etc.</span>
+								<div class="faded">
+									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg ftco-animate d-flex">
+						<div class="staff bg-primary">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/woman-holding-tomatoes-3213283.jpg);"></div>
+							</div>
+							<div class="text pt-3 px-3 pb-4 text-center">
+								<h3>Pepper</h3>
+								<span class="position mb-2">Tomatoes, Rodo(Scotch-Boonet), Tatashe(Bell Pepper), etc.</span>
+								<div class="faded">
+									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg ftco-animate d-flex">
+						<div class="staff bg-primary">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/funny-black-woman-choosing-food-in-grocery-shop-4177735.jpg);"></div>
+							</div>
+							<div class="text pt-3 px-3 pb-4 text-center">
+								<h3>Spices</h3>
+								<span class="position mb-2">Salt, Maggi, Curry, Thyme, Ginger, etc.</span>
+								<div class="faded">
+									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
+		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+    <section class="ftco-section ftco-no-pt ftco-no-pb">
+    	<div class="container">
+    		<div class="row d-flex no-gutters">
+    			<div class="col-md-6 d-flex order-md-last">
+    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center mb-4 mb-sm-0" style="background-image:url(images/woman-smiling-and-eating-outside-the-pop-porium-shop-2434048.jpg);">
+    					<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+    						<span class="fa fa-play"></span>
+    					</a>
+    				</div>
+    			</div>
+    			<div class="col-md-6 pr-md-5 py-md-5">
+    				<div class="row justify-content-start py-5">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<span class="subheading">Welcome to African Foods and Delivery</span>
+		            <h2 class="mb-4">Maximise Your Income.</h2>
+		            <p>Regardless of your class, AF & D helps you leverage on the strengths and opportunities of the local food market, thereby giving you more financial purchasing power to tend to the numerous other needs.</p>
+		          </div>
+		        </div>
+						<div class="row ftco-counter pb-5" id="section-counter">
+		          <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		              <div class="text">
+		                <strong class="number" data-number="450">0</strong>
+		              </div>
+		              <div class="text">
+		              	<span>Deliveries</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		              <div class="text">
+		                <strong class="number" data-number="2342">0</strong>
+		              </div>
+		              <div class="text">
+		              	<span>Orders</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18">
+		              <div class="text">
+		                <strong class="number" data-number="300">0</strong>
+		              </div>
+		              <div class="text">
+		              	<span>Happy <br> Customers</span>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+	</section>
+
+	<section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5 mb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+          	<span class="subheading">We offer Services</span>
+            <h2>Our Benefits</h2>
+          </div>
+        </div>
+    		<div class="row">
+          <div class="col-md-4 services ftco-animate">
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="flaticon-chiropractic"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Save More On Foods</h3>
+                <p>Cheapest Fresh Food Items Directly From The Right Sources. We also support our farmers and sellers so as to reduce cost of food
+                by approximately a percent every year</p>
+                <p><a href="#" class="btn-custom">Read more</a></p>
+              </div>
+            </div>
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="flaticon-acupuncture"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Cheapest Delivery</h3>
+                <p>We tend to reach our scaled-down, one-for-all delivery quality through our in-bulk transportation service.</p>
+                <p><a href="#" class="btn-custom">Read more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 services ftco-animate">
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="flaticon-electrotherapy"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Fresh Foods Only</h3>
+                <p>All Products Are Naturally Processed To Standard.</p>
+                <p><a href="#" class="btn-custom">Read more</a></p>
+              </div>
+            </div>
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="flaticon-examination"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Familiar Measurements and Packs</h3>
+                <p>You can buy foods using standard measurements as grammes and kilogrammes and packed in sacks and poly bags.
+                   You can also buy in tin cups, congo bowls, etc.</p>
+                <p><a href="#" class="btn-custom">Read more</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 services ftco-animate">
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="flaticon-lymph-nodes"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Qualified Food Scientists and Professionals</h3>
+                <p>We engage competent and passionate farmers, qualified food scientists and professionals.</p>
+                <p><a href="#" class="btn-custom">Read more</a></p>
+              </div>
+            </div>
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="flaticon-bone"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Endorsed and Accredited by reputable Food Bureau</h3>
+                <p>Our produce are accredited by NAFDAC, SON, and many other reputable food institutions .</p>
+                <p><a href="#" class="btn-custom">Read more</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    	</div>
+    </section>
+
+
+    <section class="ftco-section testimony-section bg-dark">
+      <div class="container">
+        <div class="row justify-content-center pb-5 mb-3">
+          <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
+          	<span class="subheading">Testimonies</span>
+            <h2>Happy Clients &amp; Feedbacks</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">I have known the owners of AF & D for almost 10 years now and till now our relationship is still strong because
+                      they never disappoint.</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Mrs Abosede Adewuyi</p>
+		                    <span class="position">Manager, Smartab Ventures</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">AF & D have the best hands on deck. I strongly recommend them because trying them will convince you, definitely.</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Gbenro Johnson</p>
+		                    <span class="position">Food Scientist</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Their goods are so fresh. They are so organised and my engagement with AF & D is so smooth and attractive.</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Victoria A.O.</p>
+		                    <span class="position">Patron</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">It is so nice I do not have to go to the market to purchase raw foods. I never thought I would live to see such moments in this country. Thank you AF & D!.</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Clement O.R.</p>
+		                    <span class="position">Patron</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Well, I am not surprised that awesome initiatives like this is coming out of these people. I have never been disappointed with their output since my first experience with them. Weldone guys!.
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Toheeb Olagunju</p>
+		                    <span class="position">Supplier</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+		<section class="ftco-section ftco-no-pt ftco-no-pb">
+			<div class="container-fluid px-md-0">
+				<div class="row no-gutters">
+          <div class="col-md-3 ftco-animate">
+            <div class="work img d-flex align-items-center" style="background-image: url(images/work-1.jpg);">
+            	<a href="images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    					<span class="fa fa-expand"></span>
+	    				</a>
+            	<div class="desc w-100 px-4 text-center pt-5 mt-5">
+	              <div class="text w-100 mb-3 mt-4">
+	              	<h2><a href="work-single.html">Rice</a></h2>
+	              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ftco-animate">
+            <div class="work img d-flex align-items-center" style="background-image: url(images/work-2.jpg);">
+            	<a href="images/work-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    					<span class="fa fa-expand"></span>
+	    				</a>
+            	<div class="desc w-100 px-4 text-center pt-5 mt-5">
+	              <div class="text w-100 mb-3 mt-4">
+	              	<h2><a href="work-single.html">Beans</a></h2>
+	              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ftco-animate">
+            <div class="work img d-flex align-items-center" style="background-image: url(images/work-3.jpg);">
+            	<a href="images/work-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    					<span class="fa fa-expand"></span>
+	    				</a>
+            	<div class="desc w-100 px-4 text-center pt-5 mt-5">
+	              <div class="text w-100 mb-3 mt-4">
+	              	<h2><a href="work-single.html">Yam</a></h2>
+	              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ftco-animate">
+            <div class="work img d-flex align-items-center" style="background-image: url(images/work-4.jpg);">
+            	<a href="images/work-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    					<span class="fa fa-expand"></span>
+	    				</a>
+            	<div class="desc w-100 px-4 text-center pt-5 mt-5">
+	              <div class="text w-100 mb-3 mt-4">
+	              	<h2><a href="work-single.html">Garri</a></h2>
+	              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 ftco-animate">
+            <div class="work img d-flex align-items-center" style="background-image: url(images/work-5.jpg);">
+            	<a href="images/work-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    					<span class="fa fa-expand"></span>
+	    				</a>
+            	<div class="desc w-100 px-4 text-center pt-5 mt-5">
+	              <div class="text w-100 mb-3 mt-4">
+	              	<h2><a href="work-single.html">Vegetables &amp; Fruits</a></h2>
+	              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ftco-animate">
+            <div class="work img d-flex align-items-center" style="background-image: url(images/work-6.jpg);">
+            	<a href="images/work-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    					<span class="fa fa-expand"></span>
+	    				</a>
+            	<div class="desc w-100 px-4 text-center pt-5 mt-5">
+	              <div class="text w-100 mb-3 mt-4">
+	              	<h2><a href="work-single.html">Spices &amp; Flavours</a></h2>
+	              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ftco-animate">
+            <div class="work img d-flex align-items-center" style="background-image: url(images/work-7.jpg);">
+            	<a href="images/work-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    					<span class="fa fa-expand"></span>
+	    				</a>
+            	<div class="desc w-100 px-4 text-center pt-5 mt-5">
+	              <div class="text w-100 mb-3 mt-4">
+	              	<h2><a href="work-single.html">Pepper</a></h2>
+	              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ftco-animate">
+            <div class="work img d-flex align-items-center" style="background-image: url(images/work-8.jpg);">
+            	<a href="images/work-8.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    					<span class="fa fa-expand"></span>
+	    				</a>
+            	<div class="desc w-100 px-4 text-center pt-5 mt-5">
+	              <div class="text w-100 mb-3 mt-4">
+	              	<h2><a href="work-single.html">Oil</a></h2>
+	              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+			</div>
+		</section>
+
+		<section class="ftco-section">
+      <div class="container" ng-controller="adsCtrl">
+        <div class="row justify-content-center pb-5 mb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+          	<span class="subheading">Markets &amp; Advert Threads</span>
+            <h2>Latest news from our sellers</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+			<div class="col-md-4 d-flex ftco-animate" ng-repeat="x in ad.adverts">
+				<div class="blog-entry align-self-stretch">
+				  <a href="blog-single.html" class="block-20 rounded" style="background-image: url({{x.backImgUrl}});">
+				  </a>
+				  <div class="text mt-3">
+					  <div class="posted mb-3 d-flex">
+						  <div class="img author" style="background-image: url({{x.authorImgUrl}});"></div>
+						  <div class="desc pl-3">
+							  <span>{{x.postedBy}}</span>
+							  <span>{{x.owner}}</span>
+							  <span>{{x.date}}</span>
+						  </div>
+					  </div>
+					<h3 class="heading"><a href={{x.pageUrl}}>{{x.prompt}}</a></h3>
+				  </div>
+				</div>
+			  </div>
+          <!--<div ng-repeat="x in adverts" class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text mt-3">
+              	<div class="posted mb-3 d-flex">
+              		<div class="img author" style="background-image: url(images/person_2.jpg);"></div>
+              		<div class="desc pl-3">
+						  <span>Posted by Mrs Abosede Adewuyi.</span>
+						  <span>Owner of Smartab Foods, Akure South.</span>
+              			<span>24 February 2020</span>
+              		</div>
+              	</div>
+                <h3 class="heading"><a href="#">Click here to buy your pepper mix</a></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text mt-3">
+              	<div class="posted mb-3 d-flex">
+              		<div class="img author" style="background-image: url(images/person_3.jpg);"></div>
+              		<div class="desc pl-3">
+						  <span>Posted by Victoria A.O.</span>
+						  <span>Owner of Victoria Ventures, Akure South.</span>
+              			<span>24 February 2020</span>
+              		</div>
+              	</div>
+                <h3 class="heading"><a href="#">Click here to buy your fresh fish</a></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text mt-3">
+              	<div class="posted mb-3 d-flex">
+              		<div class="img author" style="background-image: url(images/person_1.jpg);"></div>
+              		<div class="desc pl-3">
+						  <span>Posted by Dorcas Arekemase</span>
+						  <span>Owner of Dorcas Arekemase LTD, Akure South.</span>
+              			<span>24 February 2020</span>
+              		</div>
+              	</div>
+                <h3 class="heading"><a href="#">Click here to buy your Garri</a></h3>
+              </div>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </section>
+
+	<section class="ftco-section">
+		<div class="container">
+		  <div class="row justify-content-center pb-5 mb-3">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+				<span class="subheading">Food Tips</span>
+			  <h2>Latest news from our Specialists</h2>
+			</div>
+		  </div>
+		  <div class="row d-flex">
+			<div class="col-md-4 d-flex ftco-animate">
+			  <div class="blog-entry align-self-stretch">
+				<a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_1.jpg');">
+				</a>
+				<div class="text mt-3">
+					<div class="posted mb-3 d-flex">
+						<div class="img author" style="background-image: url(images/person_2.jpg);"></div>
+						<div class="desc pl-3">
+							<span>Posted by Gbenro Johnson</span>
+							<span>Food Scientist</span>
+							<span>24 February 2020</span>
+						</div>
+					</div>
+				  <h3 class="heading"><a href="#">Benefits of Spinach</a></h3>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+			  <div class="blog-entry align-self-stretch">
+				<a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_2.jpg');">
+				</a>
+				<div class="text mt-3">
+					<div class="posted mb-3 d-flex">
+						<div class="img author" style="background-image: url(images/person_3.jpg);"></div>
+						<div class="desc pl-3">
+							<span>Posted by Victoria A.O.; CEO, VEEK Farms</span>
+							<span>CEO, VEEK Farms, Akure South.</span>
+							<span>24 February 2020</span>
+						</div>
+					</div>
+				  <h3 class="heading"><a href="#">Why You Should Not Eat Too Much</a></h3>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+			  <div class="blog-entry align-self-stretch">
+				<a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_3.jpg');">
+				</a>
+				<div class="text mt-3">
+					<div class="posted mb-3 d-flex">
+						<div class="img author" style="background-image: url(images/person_1.jpg);"></div>
+						<div class="desc pl-3">
+							<span>Posted by Dorcas Arekemase</span>
+							<span>Owner of Dorcas Arekemase LTD, Akure South.</span>
+							<span>24 February 2020</span>
+						</div>
+					</div>
+				  <h3 class="heading"><a href="#">Garri Vs. Rice, Starch Level</a></h3>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+
+    <footer class="footer ftco-section ftco-no-pt">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg">
+            <div class="ftco-footer-widget py-4 py-md-5">
+              <h2 class="logo"><a href="#">African Foods and Deliveries</a></h2>
+              <p>Your Fresh Food Made Available In Style.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-4">
+                <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg">
+            <div class="ftco-footer-widget ml-md-5 py-5">
+              <h2 class="ftco-heading-2">Food Categories</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Grains</a></li>
+                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Legumes</a></li>
+                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Vegetables and Fruits</a></li>
+                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Tubers</a></li>
+                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Spices and Supplements</a></li>
+                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Food Oils</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg">
+            <div class="ftco-footer-widget py-4 py-md-5">
+            	<h2 class="ftco-heading-2">Contact information</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <!--<li><span class="icon fa fa-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>-->
+	                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+234 810 169 1795</span></a></li>
+	                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@afandd.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg">
+             <div class="ftco-footer-widget bg-primary p-4 py-5">
+              <h2 class="ftco-heading-2">Business Hours</h2>
+              <div class="opening-hours">
+              	<h4>Opening Days:</h4>
+              	<p class="pl-3">
+              		<span>Monday – Friday : 9am to 20 pm</span>
+              		<span>Saturday : 9am to 17 pm</span>
+              	</p>
+              	<h4>Vacations:</h4>
+              	<p class="pl-3">
+              		<span>All Sunday Days</span>
+              		<span>All Official Holidays</span>
+              	</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+<script>
+	var app = angular.module('buyForm', []).app.controller('valCtrl', function($scope) {
+		
+		$scope.name = '';
+		$scope.email = '';
+		$scope.phone = '';	
+		$scope.address = '';
+
+		document.forms["foodbuy"]["submit"].onclick = function() {
+			let data = {
+				name: $scope.name,
+				email: $scope.email,
+				phone: $scope.phone,
+				address: $scope.address,
+				category: $scope.category,
+				product: $scope.prod_type
+			}
+			window.location.assign("itemsellers.html?data=" + data);
+		}
+});
+
+app.controller('adsCtrl', function($scope) {
+
+	$scope.adverts = [{
+		backImgUrl:'images/image_1.jpg',
+		authorImgUrl:'images/person_2.jpg',
+		postedBy:'Posted by Mrs Abosede Adewuyi.',
+		owner:'Owner of Smartab Foods, Akure South.',
+		date:'24 February 2020',
+		pageUrl:'blog-single.html',
+		prompt:'Click here to buy your pepper mix'
+	},
+	{
+		backImgUrl:'images/image_2.jpg',
+		authorImgUrl:'images/person_3.jpg',
+		postedBy:'Posted by Victoria A.O.',
+		owner:'Owner of Victoria Ventures, Akure South.',
+		date:'24 February 2020',
+		pageUrl:'blog-single.html',
+		prompt:'Click here to buy your fresh fish'
+	},
+	{
+		backImgUrl:'images/image_3.jpg',
+		authorImgUrl:'images/person_1.jpg',
+		postedBy:'Posted by Dorcas Arekemase.',
+		owner:'Owner of Dorcas Arekemase LTD, Akure South.',
+		date:'24 February 2020',
+		pageUrl:'blog-single.html',
+		prompt:'Click here to buy your Garri'
+	}];		
+}
+	/*
+            
+	//console.log(new Date().toLocaleTimeString());
+/*	function validateForm() {
+		//foodbuy, name, phoen, email, cat, prod-type, local-govt, address
+	let name = document.forms["foodbuy"]["name"].value;
+	let phone = document.forms["foodbuy"]["phone"].value;
+	let email = document.forms["foodbuy"]["cat"].value;
+	let prodtype = document.forms["foodbuy"]["prod_type"].value;
+	let localgovt = document.forms["foodbuy"]["local_govt"].value;
+	let address = document.forms["foodbuy"]["address"].value;
+   
+}
+*/
+</script>
+  </body>
+</html>
